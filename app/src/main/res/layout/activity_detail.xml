@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".ui.detail.DetailActivity">
+
+    <ImageView
+        android:id="@+id/iv_image_default"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/item_error_state"
+        android:visibility="gone" />
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/ytpvThriller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_image_default" />
+
+    <LinearLayout
+        android:id="@+id/lt_title_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ytpvThriller"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/title_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            style="@style/text_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        style="@style/line_section"
+        android:layout_below="@+id/lt_title_detail">
+
+    </View>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lt_title_detail">
+
+        <TextView
+            android:id="@+id/tv_description"
+            style="@style/text_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/bt_back_nav"
+        style="@style/button_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next_nav" />
+
+</RelativeLayout>

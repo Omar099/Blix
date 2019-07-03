@@ -1,0 +1,68 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+    </style>
+
+    <style name="title_carrousel" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:paddingTop">30dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">5dp</item>
+    </style>
+
+    <style name="bottom_theme" parent="Widget.MaterialComponents.BottomAppBar">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/colorPrimaryLight</item>
+    </style>
+
+    <style name="toolbar_theme" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="button_nav" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="title_detail" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingStart">30dp</item>
+        <item name="android:paddingEnd">30dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="text_detail" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingStart">30dp</item>
+        <item name="android:paddingEnd">30dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:justificationMode" tools:targetApi="o">inter_word</item>
+    </style>
+
+    <style name="line_section">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="spinner_theme" parent="Widget.AppCompat.Spinner">
+        <item name="android:layout_margin">30dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+</resources>

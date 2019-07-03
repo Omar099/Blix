@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Blix</string>
+    <string name="app_name_upper_case">BLIX</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Buscar</string>
+    <string name="lang">es</string>
+    <string name="tv_title_popular">Popular</string>
+    <string name="tv_title_top_rated">Top Rated</string>
+    <string name="tv_title_upcoming">Upcoming</string>
+    <string name="tv_title_discover">Descubre</string>
+    <string name="searchable_hint">Buscar</string>
+    <string name="searchable_label">Buscar</string>
+    <string name="info_label">Información</string>
+    <string name="msj_exit_app">Presiona nuevamente para salir</string>
+    <string name="next_nav">Seguir navegando</string>
+    <string name="constant_date_name">Año de lanzamiento: </string>
+    <string name="tv_text_info">Esta es una aplicación sin fines de lucro, creada para propósitos educacionales</string>
+    <string name="tv_text_licence">MIT Licence</string>
+    <string name="tv_power_by">Powered by</string>
+    <string name="verify_conection">Verifique su conexión</string>
+</resources>
